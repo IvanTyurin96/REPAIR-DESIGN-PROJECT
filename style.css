@@ -1,0 +1,526 @@
+body {
+    font-family: "Nunito Sans", "Times New Roman", Times, sans-serif;
+    margin: 0;
+    font-size: 14px;
+    background-color: white;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-middle {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.container-short {
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Nunito Sans";
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-large {
+    padding: 20px 42px;
+    margin: 20px 20px 20px 0px;
+}
+
+.button-form {
+    padding: 20px 75px;
+    margin: 0px;
+}
+
+.button-empty {
+    border: 2px solid #FFFFFF;
+    background:rgba(0, 0, 0, 0.0);
+    padding: 18px 40px;
+}
+
+.title {
+    margin: 0;
+    font-family: "Yeseva One", "Times New Roman", Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subtitle {
+    margin: 0;
+    font-family: 'Yeseva One', "Times New Roman", Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.input {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+
+.input-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.word-gold {
+    color: #E3B873;
+}
+
+.header {
+    background-color: #131313;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation-item {
+    margin-right: 47px;
+}
+
+.header-navigation-item a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-navigation-item:nth-of-type(1) a {
+    color: #E3B873;
+}
+
+.hero {
+    background-image: url('img/background-1.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.paragraph-middle {
+    font-size: 22px;
+    line-height: 36px;
+    font-style: normal;
+    margin: 19px 0;
+    color: white;
+}
+
+.com-pro {
+    background-color: #131313;
+    height: auto;
+    padding-top: 107px;
+    padding-bottom: 416px;
+}
+
+.com-pro-hotels-navigation {
+    list-style: none;
+    display: flex;
+    margin: 0px 0px 0px auto;
+    padding: 0px 0px 0px 0px;
+    width: 679px;
+    justify-content: space-between;
+}
+
+.com-pro-hotels-navigation-item {
+    margin-right: 0px;
+    padding: 10px 0px;
+    border-width: 1px;
+    border-bottom: solid;
+    border-color: #131313;
+}
+
+.com-pro-hotels-navigation-item a {
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.com-pro-hotels-navigation-item:nth-of-type(1) {
+    border-bottom: solid;
+    border-color: #E3B873;
+    border-bottom-width: 1px;
+}
+
+.com-pro-hotels-navigation-item:nth-of-type(1) a {
+    color: #E3B873;
+}
+
+.com-pro-double-container {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-pro-double-first {
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+}
+
+.com-pro-double-second {
+    width: 679px;
+    height: 482px;
+    background-image: url('img/background-2.png');
+}
+
+.com-pro-paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 34px;
+    margin-bottom: 42px;
+}
+
+.com-pro-grid {
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 107px 107px;
+}
+
+.com-pro-grid-headers {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin: 0px 0px 9px 0px;
+}
+
+.com-pro-grid-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.com-pro-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.com-pro-arrow-left {
+    width: 42px;
+    height: 13.28px;
+    background-repeat: no-repeat;
+    background-image: url('img/arrow-left.svg');
+}
+
+.com-pro-circles {
+    width: 66px;
+    height: 13.27px;
+    background-repeat: no-repeat;
+    background-image: url('img/circles.svg');
+    background-position: center;
+}
+
+.com-pro-arrow-right {
+    width: 42px;
+    height: 13.28px;
+    background-repeat: no-repeat;
+    background-image: url('img/arrow-right.svg');
+}
+
+.online-control {
+    padding: 0px;
+    height: auto;
+    margin-top: -416px;
+}
+
+.online-control-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0px;
+    padding-top: 92px;
+}
+
+.online-control-camera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    margin: 12.79px auto 31.21px;
+}
+
+.camera-svg {
+    width: 32.77px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-image: url('img/camera.svg');
+}
+
+.camera-line {
+    width: 32px;
+    height: 1.54px;
+    background-repeat: no-repeat;
+    background-image: url('img/horizontal-line.svg');
+}
+
+.online-control-background {
+    width: 817px;
+    height: 434px;
+    background-repeat: no-repeat;
+    background-image: url('img/background-3.png');
+    margin: 0px auto;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+.online-control-background-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-control-background-line {
+    width: 55px;
+    margin: 62px auto 34.46px;
+    border: 0;
+    border-top: 1px solid;
+    border-color: #E3B873;
+}
+
+.online-control-paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    width: 681px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.online-control-play {
+    width: 85px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-image: url('img/play-icon.svg');
+    background-position-x: center;
+    background-position-y: -25px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.online-control-form {
+    width: 750px;
+    height: auto;
+    margin: 91.5px auto 0px;
+}
+
+.online-control-form-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.online-control-checkbox {
+    margin: 39px auto 0px;
+    width: max-content;
+}
+
+.label {
+    cursor: pointer;
+}
+.checkbox{
+    display: none;
+}
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+
+.types-of-repair {
+    padding-top: 75.85px;
+    height: 1000px;
+}
+
+.types-of-repair-header {
+    color: #181818;
+    padding-top: 0px;
+}
+
+.types-of-repair-hammer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    margin: 13px auto 31px;
+}
+
+.hammer-svg {
+    width: 27.99px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-image: url('img/hammer.svg');
+}
+
+.rooms-container {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+}
+
+.room {
+    width: 392px;
+    height: 421px;
+    background-repeat: no-repeat;
+}
+
+.room-1 {
+    background-image: url('img/room-1.jpg');
+}
+
+.room-2 {
+    background-image: url('img/room-2.jpg');
+}
+
+.room-3 {
+    background-image: url('img/room-3.jpg');
+}
+
+.room-description {
+    background-color: white;
+    width: 330px;
+    height: 286px;
+    margin: 294px auto 0px;
+}
+
+.rooms-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+    padding-left: 34px;
+}
+
+.rooms-ul {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 13px;
+    padding-left: 50px;
+}
+
+.room-cost {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
