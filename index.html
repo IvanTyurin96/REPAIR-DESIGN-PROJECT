@@ -28,25 +28,26 @@
                     </ul>
                 </nav>
                 <a class="word-gold" href="tel:+79287683239">+7 (928) 768-32-39</a>
-                <button class="button">Request a call</button>
+                <button class="button header-button">Request a call</button>
             </div>
         </header>
         <main>
-            <section class="hero" style="z-index: -3;">
-                <div class="hero-overlay" style="z-index: -2;"></div>
-                <div class="container-short">
-                    <h1 class="title">
-                        Turnkey Repair in the<br>city of <span class="word-gold">Rostov-on-Don</span>
-                    </h1>
-                    <p class="paragraph-middle">
-                        Get ready-made turnkey repairs on time<br>with work time saving up to 45 days and 20% from<br>cost of materials due to the organization of work
-                    </p>
-                    <button class="button button-large">Calculate the cost</button>
-                    <button class="button button-large button-empty">Submit your application</button>
+            <section class="hero">
+                <div class="hero-overlay">
+                    <div class="container hero-content">
+                        <h1 class="title">
+                            Turnkey Repair in the<br>city of <span class="word-gold">Rostov-on-Don</span>
+                        </h1>
+                        <p class="paragraph-middle">
+                            Get ready-made turnkey repairs on time<br>with work time saving up to 45 days and 20% from<br>cost of materials due to the organization of work
+                        </p>
+                        <button class="button button-large">Calculate the cost</button>
+                        <button class="button button-large button-empty">Submit your application</button>
+                    </div>
                 </div>
             </section>
             <section class="com-pro">
-                <div class="container-short">
+                <div class="container com-pro-content">
                     <ul class="com-pro-hotels-navigation">
                         <li class="com-pro-hotels-navigation-item"><a href="#">Rostov-on-Don, Admiral</a></li>
                         <li class="com-pro-hotels-navigation-item"><a href="#">Sochi Thieves</a></li>
@@ -60,6 +61,10 @@
                             <p class="com-pro-paragraph">
                                 Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families
                             </p>
+                            <div class="com-pro-mobile-image">
+                                <a class="com-pro-mobile-image-circle com-pro-mobile-image-circle-left" href="#"></a>
+                                <a class="com-pro-mobile-image-circle com-pro-mobile-image-circle-right" href="#"></a>
+                            </div>
                             <div class="com-pro-grid">
                                 <div>
                                     <h3 class="com-pro-grid-headers">City:</h3>
@@ -90,7 +95,7 @@
                 </div>
             </section>
             <section class="online-control">
-                <div class="container-short">
+                <div class="container online-control-content">
                     <h3 class="online-control-header">Online control</h3>
                     <div class="online-control-camera">
                         <div class="camera-line"></div>
@@ -111,13 +116,20 @@
                     </p>
                     <form class="online-control-form">
                         <div class="online-control-form-main">
-                            <div>
+                            <div class="online-control-form-items">
                                 <label class="input-label">Name:</label><br>
                                 <input class="input" type="text" placeholder="What is your name:">
                             </div>
-                            <div>
+                            <div class="online-control-form-items">
                                 <label class="input-label">Phone:</label><br>
                                 <input class="input" type="text" placeholder="Your phone number">
+                            </div>
+                            <div class="online-control-checkbox online-control-checkbox-mobile">
+                                <label class="label">
+                                  <input type="checkbox" class="checkbox" >
+                                  <span class="fake"></span>
+                                  <span class="text text-checkbox-white">I agree to the processing of personal data.</span>
+                                </label>
                             </div>
                             <button class="button button-form">Submit</button>
                         </div>
@@ -132,7 +144,7 @@
                 </div>
             </section>
             <section class="types-of-repair">
-                <div class="container-middle">
+                <div class="container types-of-repair-content">
                     <h3 class="online-control-header types-of-repair-header">Types of repair</h3>
                     <div class="types-of-repair-hammer">
                         <div class="camera-line"></div>
@@ -140,7 +152,8 @@
                         <div class="camera-line"></div>
                     </div>
                     <div class="rooms-container">
-                        <div class="room room-1">
+                        <div class="single-room">
+                            <div class="room room-1"></div>
                             <div class="room-description">
                                 <h4 class="rooms-header">Redecorating</h4>
                                 <ul class="rooms-ul">
@@ -151,13 +164,14 @@
                                     <li>Replacing plumbing</li>
                                     <li>Replacing sockets and switches</li>
                                     <li>Replacing doors</li>
-                                </ul>
-                                <div class="room-cost">
-                                   <span>From 900 rub / m<sup>2</sup></span>
-                                </div>
+                                </ul> 
+                            </div>
+                            <div class="room-cost">
+                                <span>From 900 rub / m<sup>2</sup></span>
                             </div>
                         </div>
-                        <div class="room room-2">
+                        <div class="single-room">
+                            <div class="room room-2"></div>
                             <div class="room-description">
                                 <h4 class="rooms-header">Overhaul</h4>
                                 <ul class="rooms-ul">
@@ -168,13 +182,14 @@
                                     <li>Replacing plumbing</li>
                                     <li>Replacing sockets and switches</li>
                                     <li>Replacing doors</li>
-                                </ul>
-                                <div class="room-cost">
-                                    <span>From 1800 rub / m<sup>2</sup></span>
-                                 </div>
+                                </ul> 
+                            </div>
+                            <div class="room-cost">
+                                <span>From 1800 rub / m<sup>2</sup></span>
                             </div>
                         </div>
-                        <div class="room room-3">
+                        <div class="single-room">
+                            <div class="room room-3"></div>
                             <div class="room-description">
                                 <h4 class="rooms-header">Designer Repair</h4>
                                 <ul class="rooms-ul">
@@ -185,15 +200,293 @@
                                     <li>Replacing plumbing</li>
                                     <li>Replacing sockets and switches</li>
                                     <li>Replacing doors</li>
+                                </ul> 
+                            </div>
+                            <div class="room-cost">
+                                <span>From 4000 rub / m<sup>2</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rooms-background">
+                        <div class="rooms-background-left">
+                            <div class="rooms-background-left-number-block">
+                                <div class="rooms-background-left-number-circle">
+                                    <div class="rooms-background-left-number">01</div>
+                                </div>
+                                <div class="rooms-background-left-number-block-text">
+                                    Our specialist will arrive for measurements per day contact, or appoint a date convenient for you
+                                </div>
+                            </div>
+                            <div class="rooms-background-left-number-block">
+                                <div class="rooms-background-left-number-circle">
+                                    <div class="rooms-background-left-number">02</div>
+                                </div>
+                                <div class="rooms-background-left-number-block-text">
+                                    Free metering
+                                </div>
+                            </div>
+                            <div class="rooms-background-left-number-block">
+                                <div class="rooms-background-left-number-circle">
+                                    <div class="rooms-background-left-number">03</div>
+                                </div>
+                                <div class="rooms-background-left-number-block-text">
+                                    Free consultation
+                                </div>
+                            </div>
+                            <div class="rooms-background-left-number-block">
+                                <div class="rooms-background-left-number-circle">
+                                    <div class="rooms-background-left-number">04</div>
+                                </div>
+                                <div class="rooms-background-left-number-block-text">
+                                    Get a cost estimate and<br>the timing of your future repairs
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rooms-background-right">
+                            <form class="rooms-background-form">
+                                <div class="rooms-background-form-header">
+                                    Leave a request for free<br>departure of the measurer
+                                </div>
+                                <div>
+                                    <label class="input-label input-label-light">Name:</label><br>
+                                    <input class="input input-light" type="text" placeholder="What is your name:">
+                                </div>
+                                <div class="rooms-background-form-items">
+                                    <label class="input-label input-label-light">Phone:</label><br>
+                                    <input class="input input-light" type="text" placeholder="Your phone number:">
+                                </div>
+                                <div class="rooms-background-form-items">
+                                    <label class="input-label input-label-light">Email:</label><br>
+                                    <input class="input input-light" type="text" placeholder="Your email">
+                                </div>
+                                <div class="rooms-background-form-checkbox">
+                                    <label class="label">
+                                      <input type="checkbox" class="checkbox" >
+                                      <span class="fake"></span>
+                                      <span class="text" style="color: white">I agree to the processing of personal data.</span>
+                                    </label>
+                                </div>
+                                <div style="margin: 0px 0px 0px auto; width: max-content">
+                                    <button class="button rooms-background-form-button">Call the measurer</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="pig-block">
+                        <div class="pig-image">
+                        </div>
+                        <div class="pig-text">
+                            Help save 10 - 20% of the<br>cost of materials
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wild-fantasy-background">
+                <div class="wild-fantasy-overlay">
+                    <div class="container wild-fantasy-content">
+                        <div class="wild-fantasy">
+                            <div class="wild-fantasy-left">
+                                <h2 class="subtitle word-gold wild-fantasy-title">
+                                    We realize your wildest fantasies
+                                </h2>
+                                <ul class="wild-fantasy-list">
+                                    <li class="wild-fantasy-list-item"><a href="#">American classic</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Empire</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Classical</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Loft</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Minimalism</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Provence</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Romanticism</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Scandinavian style</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Mediterranean style</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">ContHigh techacts</a></li>
+                                    <li class="wild-fantasy-list-item"><a href="#">Eclecticism</a></li>
                                 </ul>
-                                <div class="room-cost">
-                                    <span>From 4000 rub / m<sup>2</sup></span>
-                                 </div>
+                                <div class="wild-fantasy-mobile-image">
+                                    <a class="com-pro-mobile-image-circle com-pro-mobile-image-circle-left" href="#"></a>
+                                    <a class="com-pro-mobile-image-circle com-pro-mobile-image-circle-right" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="wild-fantasy-middle">
+                                <div class=".wild-fantasy-images wild-fantasy-image-1"></div>
+                                <div class=".wild-fantasy-images wild-fantasy-image-2"></div>
+                            </div>
+                            <div class="wild-fantasy-right">
+                                <div class=".wild-fantasy-images wild-fantasy-image-3"></div>
+                                <div class=".wild-fantasy-images wild-fantasy-image-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="our-clients">
+                <div class="container our-clients-content">
+                    <h3 class="online-control-header types-of-repair-header">Our clients</h3>
+                    <div class="our-clients-hands"></div>
+                    <p class="our-clients-paragraph">80% of our customers recommend us to their<br>friends and family.</p>
+                    <div class="our-clients-persons-container">
+                        <div class="our-clients-person-with-time-block">
+                            <div class="our-clients-person">
+                                <div class="our-clients-person-up">
+                                    <div class="our-clients-person-avatar our-clients-person-avatar-1"></div>
+                                    <div class="our-clients-person-name">Fedosova Maria Konstantinovna</div>
+                                </div>
+                                <p class="our-clients-person-paragraph">
+                                    I want to thank the guys for their work. We put your shower part in repair.
+                                    I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.
+                                    The repair process was turned out in terms, faster than anticipated. Team mobile and professional.
+                                    Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                                </p>
+                            </div>
+                            <div class="our-clients-square-time-blocks">
+                                <div class="our-clients-square-time-block">
+                                    <div class="square-svg"></div>
+                                    <span class="our-clients-square-time-block-text">
+                                        40 m<sup>2</sup>
+                                    </span>
+                                </div>
+                                <div class="our-clients-square-time-block">
+                                    <div class="note-svg"></div>
+                                    <span class="our-clients-square-time-block-text">
+                                        48 days
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="our-clients-person-with-time-block">
+                            <div class="our-clients-person">
+                                <div class="our-clients-person-up">
+                                    <div class="our-clients-person-avatar our-clients-person-avatar-2"></div>
+                                    <div class="our-clients-person-name">Afanasyev Sergey Alexandrovich</div>
+                                </div>
+                                <p class="our-clients-person-paragraph">
+                                    I want to thank the guys for their work. We put your shower part in repair.
+                                    I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.
+                                    The repair process was turned out in terms, faster than anticipated. Team mobile and professional.
+                                    Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                                </p>
+                            </div>
+                            <div class="our-clients-square-time-blocks">
+                                <div class="our-clients-square-time-block">
+                                    <div class="square-svg"></div>
+                                    <span class="our-clients-square-time-block-text">
+                                        90 m<sup>2</sup>
+                                    </span>
+                                </div>
+                                <div class="our-clients-square-time-block">
+                                    <div class="note-svg"></div>
+                                    <span class="our-clients-square-time-block-text">
+                                        128 days
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="our-clients-person-with-time-block">
+                            <div class="our-clients-person">
+                                <div class="our-clients-person-up">
+                                    <div class="our-clients-person-avatar our-clients-person-avatar-1"></div>
+                                    <div class="our-clients-person-name">Kiriev Egor Leonidovich</div>
+                                </div>
+                                <p class="our-clients-person-paragraph">
+                                    I want to thank the guys for their work. We put your shower part in repair.
+                                    I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.
+                                    The repair process was turned out in terms, faster than anticipated. Team mobile and professional.
+                                    Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                                </p>
+                            </div>
+                            <div class="our-clients-square-time-blocks">
+                                <div class="our-clients-square-time-block">
+                                    <div class="square-svg"></div>
+                                    <span class="our-clients-square-time-block-text">
+                                        56 m<sup>2</sup>
+                                    </span>
+                                </div>
+                                <div class="our-clients-square-time-block">
+                                    <div class="note-svg"></div>
+                                    <span class="our-clients-square-time-block-text">
+                                        86 days
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-clients-background">
+                        <div class="our-clients-background-overlay"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div class="map-overlay">
+                    <div class="container map-content">
+                        <form class="map-form">
+                            <h3 class="online-control-header map-form-header">Have any questions?</h3>
+                            <div class="map-form-container">
+                                <div class="map-form-up-containers">
+                                    <label class="input-label input-label-light">Name:</label><br>
+                                    <input class="input input-light" type="text" placeholder="What is your name:">
+                                </div>
+                                <div class="map-form-up-containers">
+                                    <label class="input-label input-label-light">Phone:</label><br>
+                                    <input class="input input-light" type="text" placeholder="Your phone number:">
+                                </div>
+                            </div>
+                            <div class="map-form-question">
+                                <label class="input-label input-label-light">Question:</label><br>
+                                <input class="input input-light" type="text" placeholder="I want to know:">
+                            </div>
+                            <div class="map-form-form-checkbox">
+                                <label class="label">
+                                  <input type="checkbox" class="checkbox" >
+                                  <span class="fake"></span>
+                                  <span class="text" style="color: white">I agree to the processing of personal data.</span>
+                                </label>
+                            </div>
+                            <div class="map-form-button-div">
+                                <button class="button button-large map-form-button">Submit</button>
+                            </div>
+                        </form> 
+                        <h3 class="online-control-header map-header">Rostov-on-Don, Nansen St., 239 Shopping Center<br>Decorum Tel +7 (928) 768 32 29</h3>
+                        <div class="map-email-inst">
+                            <div class="email-inst-block">
+                                <a class="email-svg" href="#"></a>
+                            </div>
+                            <div class="email-inst-block">
+                                <a class="inst-svg" href="#"></a>
+                            </div>
+                        </div>
+                        <div class="map-image">
+                        </div>
+                        <h3 class="online-control-header map-header map-header-mobile">Rostov-on-Don, Nansen St., 239 Shopping Center<br>Decorum Tel +7 (928) 768 32 29</h3>
+                        <div class="map-email-inst map-email-inst-mobile">
+                            <div class="email-inst-block">
+                                <a class="email-svg" href="#"></a>
+                            </div>
+                            <div class="email-inst-block">
+                                <a class="inst-svg" href="#"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
+        <footer class="footer">
+            <div class="container header-content footer-content">
+                <div class="logo word-gold">
+                    IC "Repair Design Project"
+                </div>
+                <nav>
+                    <ul class="header-navigation">
+                        <li class="header-navigation-item"><a href="#">Home</a></li>
+                        <li class="header-navigation-item"><a href="#">Projects</a></li>
+                        <li class="header-navigation-item"><a href="#">Measurement</a></li>
+                        <li class="header-navigation-item"><a href="#">Team</a></li>
+                        <li class="header-navigation-item"><a href="#">Reviews</a></li>
+                        <li class="header-navigation-item"><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+                <a class="word-gold" href="tel:+79287683239">+7 (928) 768-32-39</a>
+                <button class="button">Request a call</button>
+            </div>
+        </footer>
     </body>
 </html>
